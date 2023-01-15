@@ -1,0 +1,1392 @@
+<!DOCTYPE html><head><!--PS4JailbreakHost9.00FW >Website by Mouuu-Twitter:@mour0ne-Youtube:Mouuu-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="shortcut icon" href="https://ps4xploit900.github.io/jailbreak/img/icon-ps.ico">
+  <title>PS4 XPLOIT 900 HOST 🇬🇧 by Mouuu</title>
+ <link rel="stylesheet prefetch" type="text/css" href="./animate.min.css">
+	<script src="./jquery.min.js"></script><head>
+
+<style type="text/css">
+/*------------------------------------------------
+    ALL MYCSS :)
+-------------------------------------------------*/
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}#center {
+    width: 1920px;
+    margin: 0 auto;
+	color:#FFFFFF;
+	position:fixed; top:600px; right:-100PX;
+}
+.ui-loader {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: 200;
+  top: 50%;
+  left: 90%;
+  margin-left: -150px;
+  margin-top: -80px;
+  
+  width: 300px;
+  height: 160px;
+  transition: opacity 0.3s ease-in;
+}
+.ui-loader.visible {
+  opacity: 1;
+  visibility: visible;
+}
+.ui-loader .loading {
+  position: relative;
+  padding-left: 245px;
+  margin-top: 35px;
+  width: 52px;
+  height: 50px;
+}
+.ui-loader .loading svg {
+  width: 52px;
+  height: 50px;
+}
+.ui-loader .loading path {
+  opacity: 0.2;
+  animation: fade-in-out 0.8s infinite ease-in-out;
+  -webkit-animation: fade-in-out 0.8s infinite ease-in-out;
+}
+.ui-loader .loading path.ps-square {
+  animation-delay: 0;
+  -webkit-animation-delay: 0;
+}
+.ui-loader .loading path.ps-triangle {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+.ui-loader .loading path.ps-x {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+.ui-loader .loading path.ps-circle {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+.ui-loader span {
+  padding-top: 30px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+@-webkit-keyframes fade-in-out {
+  0%, 80%, 100% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-out {
+  0%, 80%, 100% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+head{
+background-color:#000000;
+}
+
+
+header{
+	height: 3em;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	
+}
+
+header div{
+	height: 100%;
+	display: inline-block;
+}
+
+#plus{
+	width: 3em;
+	background-image: url(#);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#info{
+	width: 3em;
+	background-image: url(info.png);height:54px; width:54px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#textInfo{
+	color: white;
+	font-family: arial;
+	width: 25%;
+	float: left;
+	line-height: 3em;
+}
+
+#friends{
+	width: 3em;
+	background-image: url(friends.png); height:54px; width:54px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#user{
+	margin-left: 1em;
+	width: 3em;
+	background-image: url(user.png);height:54px; width:54px;
+	background-size: 140%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#userName{
+	color: white;
+	font-family: arial;
+	width: 25%;
+	float: left;
+	line-height: 3em;
+}
+
+#trophies{
+	margin-left: 1em;
+	width: 3em;
+	background-image: url(trophy.png);height:54px; width:54px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+#clock{
+	font-family: arial;
+	line-height: 3em;
+	float: right;
+	margin-right: 1em;
+	color: white;;
+	font-size:15px;
+}
+
+/*ENF OF HEADER********************************/
+
+#games{
+	width: 1120em;
+	position: absolute;
+	top: .5em;
+	left: 0;
+	padding: 5em;
+	z-index: 99;
+	
+}
+
+.squareGame{
+	height: 11em;
+	width: 11em;
+	vertical-align: top;
+	display: inline-block;
+	transition: 0.3s ease;
+}
+
+.squareGame:hover{
+	height: 16.5em;
+	width: 15em;
+	border: 3px solid white;
+	cursor: pointer;
+}
+
+.squareGame:hover .imgGame{
+	height: 85%;
+}
+
+.imgGame{
+	height: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.gameText{
+	color: white;
+	font-family: arial;
+	text-align: center;
+	line-height: 2.4em;
+	background-color: rgba(255,255,255,.2);
+}
+
+.gameTitle{
+	position: absolute;
+	color: white;
+	font-size: 1.2em;
+	font-family: Arial;
+	transform: translate(13.2em,-1.5em);
+}
+/*SQUARE IMAGES*****************************************/
+
+.ascii{
+	font-weight: bold;
+}
+
+.ps{
+	background-image: url(goldhenmenu.png);
+}
+
+.new{
+	background-image: url(novedades.png);
+}
+.new2{
+	background-image: url(debugsettings.png);
+}
+.overwatch{
+	background-image: url(ftp.png);
+}
+
+.rocketLeague{
+	background-image: url(app2usb.png);
+}
+.rocketLeague2{
+	background-image: url(disableupdate.png);
+}
+.rocketLeague3{
+	background-image: url(binloader.png);
+}
+.rocketLeague4{
+	background-image: url(gtav.png);
+}
+.rocketLeague5{
+	background-image: url(rdr2.png);
+}
+
+.cod{
+	background-image: url(toolbox.png);
+}
+
+.furi{
+	background-image: url(dbbackup.png);
+}
+
+.youtube{
+	background-image: url(dbrestore.png);
+}
+.youtube2{
+	background-image: url(dumper.png);
+}
+
+.bro{
+	background-image: url(pkgbackup.png);
+}
+
+.outlast{
+	background-image:url(linux.png);
+}
+
+.storeGame{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#god{
+	background-image: url(new.png);
+	
+}
+
+#raider{
+	background-image: url(new.png);
+}
+
+#codi{
+	background-image: url(new.png);
+}
+
+#mafia{
+	background-image: url(new.png);
+}
+
+#destiny{
+	background-image: url(new.png);
+}
+
+#bt1{
+	background-image: url(new.png);
+}
+
+#lg{
+	background-image: url(new.png);
+}
+
+#per{
+	background-image: url(new.png);
+}
+/*linux*/
+
+#god2{
+	background-image: url(linux.png);
+	
+}
+
+#raider2{
+	background-image: url(linux.png);
+}
+
+#codi2{
+	background-image: url(linux.png);
+}
+
+#mafia2{
+	background-image: url(linux.png);
+}
+
+#destiny2{
+	background-image: url(linux.png);
+}
+
+#bt12{
+	background-image: url(linux.png);
+}
+
+#lg2{
+	background-image: url(linux.png);
+}
+
+#per2{
+	background-image: url(linux.png);
+}
+
+
+/*rdr2 MODS*/
+
+#god3{
+	background-image: url(rdr2.png);
+	
+}
+
+#raider3{
+	background-image: url(rdr2.png);
+}
+
+#codi3{
+	background-image: url(rdr2.png);
+}
+
+#mafia3{
+	background-image: url(rdr2.png);
+}
+
+#destiny3{
+	background-image: url(rdr2.png);
+}
+
+#bt13{
+	background-image: url(rdr2.png);
+}
+
+#lg3{
+	background-image: url(rdr2.png);
+}
+
+#per3{
+	background-image: url(rdr2.png);
+}
+/*gta v MODS*/
+
+#god4{
+	background-image: url(gtav.png);
+	
+}
+
+#raider4{
+	background-image: url(gtav.png);
+}
+
+#codi4{
+	background-image: url(gtav.png);
+}
+
+#mafia4{
+	background-image: url(gtav.png);
+}
+
+#destiny4{
+	background-image: url(gtav.png);
+}
+
+#bt14{
+	background-image: url(gtav.png);
+}
+
+#lg4{
+	background-image: url(gtav.png);
+}
+
+#per4{
+	background-image: url(gtav.png);
+}
+/*store*/
+
+#store{
+	padding: 1em;
+	padding-top: 6em;
+	margin-top: -3em;
+	width: 60em;
+	height: 25em;
+	padding-left: 1em;
+}
+/*despegable****menu************************/
+#store div{
+	float: left;
+	border: 3px solid rgba(245,245,245,1);
+	width: 124px;
+	height: 124px;;
+	display: inline-block;
+}
+
+#store div:hover{
+	transform: scale(1.1, 1.1);
+	box-shadow: 0px 5px 10px 3px rgba(45,45,45,.7);
+	transition: 0.3s ease;
+	border-bottom-color:#FFFC33;
+}
+
+/*waves****************************/
+
+
+.box {
+	position: fixed;
+	top: 0;
+	transform: rotate(80deg);
+	left: 0;
+}
+
+.wave {
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: .4;
+	position: absolute;
+	top: 3%;
+	left: 10%;
+	background: #0af;
+	width: 1500px;
+	height: 1300px;
+	margin-left: -150px;
+	margin-top: -250px;
+	transform-origin: 50% 48%;
+	border-radius: 43%;
+	animation: drift 7000ms infinite linear;
+	background-color: #FFFC33;
+}
+
+.wave.-three {
+  animation: drift 7500ms infinite linear;
+	position: fixed;
+	background-color: #FFFC33;
+}
+
+.wave.-two {
+  animation: drift 3000ms infinite linear;
+  opacity: .1;
+  background: #FFFC33;
+	position: fixed;
+}
+
+.box:after {
+  content: '';
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+
+/*LOADING SPACE*/
+
+.contain {
+	animation-delay: 4s;
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  background: #000000;
+  background: -webkit-linear-gradient(#000000, #000000);
+  background: linear-gradient(#000000, #000000);
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 5px;
+}
+
+/*Animation*/
+.icon:nth-child(2) img {-webkit-animation-delay: 0.2s;animation-delay: 0.2s}
+.icon:nth-child(3) img {-webkit-animation-delay: 0.3s;animation-delay: 0.3s}
+.icon:nth-child(4) img {-webkit-animation-delay: 0.4s;animation-delay: 0.4s}
+
+.icon img {
+  -webkit-animation: anim 2s ease infinite;
+  animation: anim 2s ease infinite;
+  -webkit-transform: scale(0,0) rotateZ(180deg);
+  transform: scale(0,0) rotateZ(180deg);
+}
+
+@-webkit-keyframes anim{
+  0% {
+    -webkit-transform: scale(0,0) rotateZ(-90deg);
+    transform: scale(0,0) rotateZ(-90deg);opacity:0
+  }
+  30% {
+    -webkit-transform: scale(1,1) rotateZ(0deg);
+    transform: scale(1,1) rotateZ(0deg);opacity:1
+  }
+  50% {
+    -webkit-transform: scale(1,1) rotateZ(0deg);
+    transform: scale(1,1) rotateZ(0deg);opacity:1
+  }
+  80% {
+    -webkit-transform: scale(0,0) rotateZ(90deg);
+    transform: scale(0,0) rotateZ(90deg);opacity:0
+  }
+}
+
+@keyframes anim{
+  0% {
+    -webkit-transform: scale(0,0) rotateZ(-90deg);
+    transform: scale(0,0) rotateZ(-90deg);opacity:0
+  }
+  30% {
+    -webkit-transform: scale(1,1) rotateZ(0deg);transform: scale(1,1) rotateZ(0deg);opacity:1
+  }
+  50% {
+    -webkit-transform: scale(1,1) rotateZ(0deg);
+    transform: scale(1,1) rotateZ(0deg);opacity:1
+  }
+  80% {
+    -webkit-transform: scale(0,0) rotateZ(90deg);
+    transform: scale(0,0) rotateZ(90deg);opacity:0
+  }
+}
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+<!--
+body{ background-color:#000000;
+margin: 0;
+	padding: 0;
+	
+	overflow-x:hidden;
+	overflow-y:hidden;
+	
+}
+	
+
+
+.preloader {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .preloader.active.hidden {
+    display: none; }
+
+.loading-mask {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20%;
+  -webkit-transition: all 0.6s cubic-bezier(0.61, 0, 0.6, 1) 0s;
+  -moz-transition: all 0.6s cubic-bezier(0.61, 0, 0.6, 1) 0s;
+  -o-transition: all 0.6s cubic-bezier(0.61, 0, 0.6, 1) 0s;
+  transition: all 0.6s cubic-bezier(0.61, 0, 0.6, 1) 0s; }
+  .loading-mask:nth-child(2) {
+    left: 20%;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s; }
+  .loading-mask:nth-child(3) {
+    left: 40%;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
+  .loading-mask:nth-child(4) {
+    left: 60%;
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s; }
+  .loading-mask:nth-child(5) {
+    left: 80%;
+    -webkit-transition-delay: 0.4s;
+    -moz-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    transition-delay: 0.4s; }
+
+.preloader.active.done {
+  z-index: 0; }
+
+.preloader.active .loading-mask {
+  width: 0; }
+.mt20{margin-top:20px;}
+
+
+.page-close {
+  font-size: 30px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  z-index: 100; background-color:#000000; }
+
+.page-title {
+  margin-bottom: 75px; }
+  .page-title img {
+    margin-bottom: 20px; }
+  .page-title h2 {
+    font-size: 68px;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 0;
+    font-weight: 900;
+    text-transform: uppercase; }
+  .page-title p {
+    font-size: 16px; }
+  .page-title .title-bg {
+    color: rgba(30, 37, 48, 0.07);
+    font-size: 158px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+.section-title {
+  margin-bottom: 20px; }
+  .section-title h3 {
+    display: inline-block;
+    position: relative; }
+    .section-title h3::before, .section-title h3::after {
+      content: "";
+      height: 2px;
+      position: absolute;
+      bottom: 8px;
+      left: -webkit-calc(100% + 14px);
+      left: -moz-calc(100% + 14px);
+      left: calc(100% + 14px); }
+    .section-title h3::before {
+      background-color: #828283;
+      width: 96px;
+      bottom: 14px; }
+    .section-title h3::after {
+      background-color: #FA6862;
+      width: 73px; }
+  .section-title.light h3 {
+    color: #fff; }
+    .section-title.light h3::before {
+      background-color: #fff; }
+
+.page-nav {
+  bottom: 40px;
+  left: 0;
+  position: absolute;
+  right: 0; }
+  .page-nav span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0.9;
+    text-transform: uppercase; }
+
+.hexagon-item:first-child {
+    margin-left: 0;
+}
+
+.page-home {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle; }
+  .page-home .overlay {
+    background-color:#000000;
+}
+
+/* End of container */
+.hexagon-item {
+  cursor: pointer;
+  width: 200px;
+  height: 173.20508px;
+  float: left;
+  margin-left: -29px;
+  z-index: 0;
+  position: relative;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg); }
+  .hexagon-item:first-child {
+    margin-left: 0; }
+  .hexagon-item:hover {
+    z-index: 1; }
+    .hexagon-item:hover .hex-item:last-child {
+      opacity: 1;
+      -webkit-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      -o-transform: scale(1.3);
+      transform: scale(1.3); }
+    .hexagon-item:hover .hex-item:first-child {
+      opacity: 1;
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2); }
+      .hexagon-item:hover .hex-item:first-child div:before,
+      .hexagon-item:hover .hex-item:first-child div:after {
+        height: 5px; }
+    .hexagon-item:hover .hex-item div::before,
+    .hexagon-item:hover .hex-item div::after {
+      background-color: #FFFC33; }
+    .hexagon-item:hover .hex-content svg {
+      -webkit-transform: scale(0.97);
+      -moz-transform: scale(0.97);
+      -ms-transform: scale(0.97);
+      -o-transform: scale(0.97);
+      transform: scale(0.97); }
+
+.page-home .hexagon-item:nth-last-child(1),
+.page-home .hexagon-item:nth-last-child(2),
+.page-home .hexagon-item:nth-last-child(3) {
+  -webkit-transform: rotate(30deg) translate(87px, -80px);
+  -moz-transform: rotate(30deg) translate(87px, -80px);
+  -ms-transform: rotate(30deg) translate(87px, -80px);
+  -o-transform: rotate(30deg) translate(87px, -80px);
+  transform: rotate(30deg) translate(87px, -80px); }
+
+.hex-item {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 100px;
+  height: 173.20508px; }
+  .hex-item:first-child {
+    z-index: 0;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); }
+  .hex-item:last-child {
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    z-index: 1; }
+  .hex-item div {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 173.20508px;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center; }
+    .hex-item div::before, .hex-item div::after {
+      background-color: #828283;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+      -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+      -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; }
+    .hex-item div:before {
+      top: 0; }
+    .hex-item div:after {
+      bottom: 0; }
+    .hex-item div:nth-child(1) {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg); }
+    .hex-item div:nth-child(2) {
+      -webkit-transform: rotate(60deg);
+      -moz-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+      -o-transform: rotate(60deg);
+      transform: rotate(60deg); }
+    .hex-item div:nth-child(3) {
+      -webkit-transform: rotate(120deg);
+      -moz-transform: rotate(120deg);
+      -ms-transform: rotate(120deg);
+      -o-transform: rotate(120deg);
+      transform: rotate(120deg); }
+
+.hex-content {
+  color: #fff;
+  display: block;
+  height: 180px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  transform: rotate(-30deg);
+  width: 156px; }
+  .hex-content .hex-content-inner {
+    left: 50%;
+    margin: -3px 0 0 2px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .hex-content .icon {
+    display: block;
+    font-size: 36px;
+    line-height: 30px;
+    margin-bottom: 11px; }
+  .hex-content .title {
+    display: block;
+    
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase; }
+  .hex-content svg {
+    left: -7px;
+    position: absolute;
+    top: -13px;
+    transform: scale(0.87);
+    z-index: -1;
+    -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; }
+  .hex-content:hover {
+    color: #fff; }
+
+.page-home .hexagon-item:nth-last-child(1), .page-home .hexagon-item:nth-last-child(2), .page-home .hexagon-item:nth-last-child(3) {
+    -webkit-transform: rotate(30deg) translate(87px, -80px);
+    -moz-transform: rotate(30deg) translate(87px, -80px);
+    -ms-transform: rotate(30deg) translate(87px, -80px);
+    -o-transform: rotate(30deg) translate(87px, -80px);
+    transform: rotate(30deg) translate(87px, -80px);
+}
+
+.author-image-large {
+  position: absolute;
+  right: 0;
+  top: 0; }
+  .author-image-large img {
+    height: -webkit-calc(100vh - 4px);
+    height: -moz-calc(100vh - 4px);
+    height: calc(100vh - 4px); }
+
+
+@media (min-width: 1200px)
+{
+.col-lg-offset-2 {
+    margin-left: 16.66666667%;
+}
+}
+
+@media (min-width: 1200px)
+{
+.col-lg-8 {
+    width: 66.66666667%;
+}
+}
+
+.hexagon-item:first-child {
+    margin-left: 0;
+}
+
+.pt-table.desktop-768 .pt-tablecell {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+
+.hexagon-item:hover .icon i
+{
+  color:#FFFC33;
+  transition:0.6s;
+  
+}
+
+
+.hexagon-item:hover .title
+{
+  -webkit-animation: focus-in-contract 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/***************************/
+
+@-webkit-keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 767px)
+{
+.hexagon-item {
+    float: none;
+    margin: 0 auto 50px;
+}
+  .hexagon-item:first-child {
+    margin-left: auto;
+}
+  
+  .page-home .hexagon-item:nth-last-child(1), .page-home .hexagon-item:nth-last-child(2), .page-home .hexagon-item:nth-last-child(3) {
+    -webkit-transform: rotate(30deg) translate(0px, 0px);
+    -moz-transform: rotate(30deg) translate(0px, 0px);
+    -ms-transform: rotate(30deg) translate(0px, 0px);
+    -o-transform: rotate(30deg) translate(0px, 0px);
+    transform: rotate(30deg) translate(0px, 0px);
+}
+  
+}
+.Estilo1 {color: #FFFF00}
+.Estilo2 {color: #ecd764}
+.idioma { position:absolute;
+   top:0;
+   left:0; padding-left:30px; padding-top:10px;}
+-->
+       .notification {
+           
+			display: flex;
+            top: 83%;
+            left: 2%;
+            position: fixed;
+            background-color:#000000;
+            color: #FFFC33;
+            padding: 1px;
+			padding-bottom:1px;
+			padding-right:19px;
+            border-radius: 30px;
+            box-shadow: 0px 0px 5px;
+            font-weight: bold;
+            animation: slide 500ms;
+			z-index:999;
+			
+        }
+        @keyframes slide {
+            from {
+                transform: translateX(-120%);
+            }
+            to {
+                transform: translateX(0%);
+            }
+        }
+        .notification2 {
+		z-index:999;
+            display: flex;
+            top: 83%;
+            left: 2%;
+            position: fixed;
+            background-color:#000000;
+            color: #FFFC33;
+            padding: 1px;
+			padding-bottom:1px;
+			padding-right:19px;
+            border-radius: 30px;
+            box-shadow: 0px 0px 5px;
+            font-weight: bold;
+            animation: slide2 500ms;
+        }
+        @keyframes slide2 {
+            from {
+                transform: translateX(0%);
+            }
+            to {
+                transform: translateX(-120%);
+            }
+        }
+
+		
+h1 {
+text-shadow: 0.1em 0.1em 0.2em black;
+font-size: 15px;
+text-align: center;
+color: white;
+}
+
+a {
+text-decoration: none;
+}
+#jb-progress {
+display: block;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ca2222;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2ab934;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;}
+  .noHover{
+    pointer-events: none;
+}
+
+
+</style>
+
+<script src="payload.js"></script>
+<script src="loader.js"></script>
+<script src="int64.js"></script>
+<script src="rop.js"></script>
+<script src="kexploit.js"></script>
+<script src="webkit.js"></script>
+</head>
+<body onLoad="load_exploit(); load()">
+<header><div id="plus"></div>
+		<div id="info"></div>
+		<div id="textInfo">Welcome! Send Payloads to your PS4 9.00</div>
+		<div id="friends"></div>
+		<div id="user"></div>
+		<div id="userName">User Jailbreak</div>
+		<div id="trophies"></div>
+		<div id="clock"><script>
+function updateClock() {
+    var currentTime = new Date();
+    // Operating System Clock Hours for 12h clock
+    var currentHoursAP = currentTime.getHours();
+    // Operating System Clock Hours for 24h clock
+    var currentHours = currentTime.getHours();
+    // Operating System Clock Minutes
+    var currentMinutes = currentTime.getMinutes();
+    // Operating System Clock Seconds
+    var currentSeconds = currentTime.getSeconds();
+    // Adding 0 if Minutes & Seconds is More or Less than 10
+    currentMinutes = (currentMinutes < 10 ? "0" : "") + currentMinutes;
+    currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
+    // Picking "AM" or "PM" 12h clock if time is more or less than 12
+    var timeOfDay = (currentHours < 12) ? "AM" : "PM";
+    // transform clock to 12h version if needed
+    currentHoursAP = (currentHours > 12) ? currentHours - 12 : currentHours;
+    // transform clock to 12h version after mid night
+    currentHoursAP = (currentHoursAP == 0) ? 12 : currentHoursAP;
+    // display first 24h clock and after line break 12h version
+    var currentTimeString = " " + currentHours + ":" + currentMinutes; 
+    // print clock js in div #clock.
+    $("#clock").html(currentTimeString);}
+    $(document).ready(function () {
+    setInterval(updateClock, 1000);
+}); </script></div></div></header>
+		
+<div id="jb-progress"><h1 id="msgs" style="margin-top:5px;color:#e5e4e2"></h1><p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="ui-loader visible" style="position:fixed; top:482px; right:-100PX; text-align:left;" >
+    <div class="loading">
+        <svg>
+            <path class="ps-square" fill="rgb(255,255,255)" fill-rule="evenodd" d="M0.00 0.00 C0.00 0.00 22.00 0.00 22.00 0.00 C22.00 0.00 22.00 22.00 22.00 22.00 C22.00 22.00 0.00 22.00 0.00 22.00 C0.00 22.00 0.00 0.00 0.00 0.00 Z M2.87 19.13 C2.87 19.13 19.13 19.13 19.13 19.13 C19.13 19.13 19.13 2.87 19.13 2.87 C19.13 2.87 2.87 2.87 2.87 2.87 C2.87 2.87 2.87 19.13 2.87 19.13 Z"/>
+            <path class="ps-triangle" fill="rgb(255,255,255)" fill-rule="evenodd" d="M26 22C26 22 38.97 0 38.97 0C38.97 0 52 21.98 52 21.98C52 21.98 26 22 26 22zM30.84 19.24C30.84 19.24 47.1 19.24 47.1 19.24C47.1 19.24 38.97 5.48 38.97 5.48C38.97 5.48 30.84 19.24 30.84 19.24z"/>
+            <path class="ps-x" fill="rgb(255,255,255)" fill-rule="evenodd" d="M20 49C20 49 11.01 40.03 11.01 40.03C11.01 40.03 2.05 49 2.05 49C2.05 49 0.01 46.96 0.01 46.96C0.01 46.96 9 37.99 9 37.99C9 37.99 0.01 29.03 0.01 29.03C0.01 29.03 2.05 26.99 2.05 26.99C2.05 26.99 11.01 35.980000000000004 11.01 35.980000000000004C11.01 35.980000000000004 20 26.99 20 26.99C20 26.99 22.01 29.03 22.01 29.03C22.01 29.03 13.03 37.99 13.03 37.99C13.03 37.99 22.01 47.010000000000005 22.01 47.010000000000005C22.01 47.010000000000005 20 49 20 49z"/>
+            <path class="ps-circle" fill="rgb(255,255,255)" fill-rule="evenodd" d="M38.5 26.99C44.86 26.99 50.010000000000005 32.13 50.010000000000005 38.49C50.010000000000005 44.85 44.86 50 38.5 50C32.14 50 27 44.85 27 38.49C27 32.13 32.14 26.99 38.5 26.99zM38.5 46.96C43.19 46.96 46.97 43.18 46.97 38.49C46.97 33.81 43.19 30.03 38.5 30.03C33.82 30.03 30.04 33.81 30.04 38.49C30.04 43.18 33.82 46.96 38.5 46.96z"/>
+        </svg>
+    </div>
+</div>                  
+<h1 id=msgs2 style='font-size:15px;text-align:center;color:#e5e4e2; position:fixed; top:482px; text-align:left; right:50px;width:1500,
+    height:1500;'>★ WK Xploit + Payloads ... ㋡</h1></div>
+   <div id="notify" style="display:none;">
+        <img src="./hen.png" style="padding-top:15px; padding-bottom:15px;padding-left:5px;" alt="" width="64px" height="64px">
+        <p id="log"></p>
+    </div>	
+
+	<div id="games">
+	<div class="squareGame animated bounceInLeft">
+			<div class="imgGame new"></a></div>
+			<div class="gameText ascii">▼</div>
+			<span class="gameTitle" style="height:100%; width:1200px;">What's New</br><p style=" font-size:18px; height:auto;">On this web page you can unlock your Playstation 4 console system version 9.00 to be able to run Homebrew and send Payloads.</br>Special Thanks to: SiSTR0 for the Goldhen★</br>Thanks to leeful, karo_sharifi, ChendoChap, Al Azif, NazkyYT ... And everyone who contributes to the scene. Enjoy !</p></span>
+		</div>
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame ps"></div>
+			<div class="gameText ascii">▼</div>
+			<span class="gameTitle">Enable GoldHEN ★</span>
+			<div id="store">
+				<div id="god" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;v 2.3</b><a   onclick=load_goldhen23() onMouseOver="msgs2.innerHTML='★ GoldHEN v2.3 - By SiSTRo</br>Homebrew Enabler, Debug Settings, VR Support, sys_dynlib_dlsym Patch,</br>Remote Package Install, Rest Mode Support, External HDD Support,Official External HDD Format Support,</br> Debug Trophies Support,UART Enabler, Never Disable Screenshot, Remote Play Enabler,</br>Persistent FTP on port 2121 (Rest Mode Support), FW Update Block,</br>BinLoader Server on port 9090, CE-30391-6 Error (CMOS) Fix,</br>Klog Server on port 3232, Integrated Cheat Menu, FPS Counter,Plugin Support,</br> TitleID Labels, Scanlines Overlay, Internal PKG Install Support</br></br>Changelog:</br>Added Plugin Support</br>Added Scanlines Overlay</br>Added Internal PKG Installation Support'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="raider" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;v 2.2.4</b><a   onclick=load_goldhen224() onMouseOver="msgs2.innerHTML='★ GoldHEN v2.2.4 - By SiSTRo</br>Homebrew Enabler,Debug Settings, VR Support, Remote Package Install,</br> Rest Mode Support, External HDD Support, Official External HDD Format Support,</br> Debug Trophies Support, sys_dynlib_dlsym Patch, UART Enabler, Never Disable Screenshot,</br> Remote Play Enabler, FW Update Block, FTP Server on 2121 port, BinLoader Server on 9090 port,</br> Klog Server on 3232 port, CE-30391-6 Error CMOS Fix, Integrated Cheat Menu</br></br>Changelog:</br>Fixed KLog tty redirect'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="codi" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;v 2.2.2</b><a   onclick=load_goldhen222() onMouseOver="msgs2.innerHTML='★ GoldHEN v2.2.2 - By SiSTRo</br>Homebrew Enabler,Debug Settings, VR Support, Remote Package Install,</br> Rest Mode Support, External HDD Support, Official External HDD Format Support,</br> Debug Trophies Support, sys_dynlib_dlsym Patch, UART Enabler, Never Disable Screenshot,</br> Remote Play Enabler, FW Update Block, FTP Server on 2121 port, BinLoader Server on 9090 port,</br> Klog Server on 3232 port, CE-30391-6 Error CMOS Fix, Integrated Cheat Menu</br></br>Changelog:</br>Added cheat absolute offset support</br>Fixed close option bug</br>Fixed Orbis Toolbox support bug'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				
+				<div id="destiny" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;v 2.1.2</b><a   onclick=load_goldhen212() onMouseOver="msgs2.innerHTML='★ GoldHEN v2.1.2 - By SiSTRo</br>Homebrew Enabler,Debug Settings, VR Support, Remote Package Install,</br> Rest Mode Support, External HDD Support, Official External HDD Format Support,</br> Debug Trophies Support, sys_dynlib_dlsym Patch, UART Enabler, Never Disable Screenshot,</br> Remote Play Enabler, FW Update Block, FTP Server on 2121 port, BinLoader Server on 9090 port,</br> Klog Server on 3232 port, CE-30391-6 Error CMOS Fix</br></br>Changelog:</br>Fixed config parser'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="bt1" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;v 2.0b2</b><a   onclick=load_goldhen2b2() onMouseOver="msgs2.innerHTML='★ GoldHEN v2.0b2 - By SiSTRo</br>Homebrew Enabler,Debug Settings, VR Support, Remote Package Install,</br> Rest Mode Support, External HDD Support, Official External HDD Format Support,</br> Debug Trophies Support, sys_dynlib_dlsym Patch, UART Enabler, Never Disable Screenshot,</br> Remote Play Enabler, FW Update Block, FTP Server on 2121 port, BinLoader Server on 9090 port,</br> Klog Server on 3232 port, CE-30391-6 Error CMOS Fix</br></br>Changelog:</br>Added BinLoader server (beta version)</br>'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="lg" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;v 2.0b</b><a   onclick=load_goldhen20b() onMouseOver="msgs2.innerHTML='★ GoldHEN v2.0b - By SiSTRo</br>Homebrew Enabler,Debug Settings, VR Support, Remote Package Install,</br> Rest Mode Support, External HDD Support, Official External HDD Format Support,</br> Debug Trophies Support, sys_dynlib_dlsym Patch, UART Enabler, Never Disable Screenshot,</br> Remote Play Enabler, FW Update Block, FTP Server on 2121 port, BinLoader Server on 9090 port,</br> Klog Server on 3232 port, CE-30391-6 Error CMOS Fix</br></br>Changelog:</br>Improved BinLoader server (still beta version)</br>Added UI menu</br>Improved stability and FTP server</br>Fixed trophy timestamps'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				
+			</div>
+		</div>
+			<div class="squareGame animated bounceInLeft">
+			<div class="imgGame new2"><a   onclick=load_basichen() onMouseOver="msgs2.innerHTML='Enable Basic HEN</br>Homebrew Enabler, ★ Debug Settings, FTP Server, Show Temperature'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">★ Debug Settings</span>
+		</div>
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame rocketLeague2"><a   onclick=load_disableupdates() onMouseOver="msgs2.innerHTML='Disable Updates</br>Creates dummy files in the PS4 update folder to prevent the download of unwanted system updates</br>It also deletes any existing updates if they already exist'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">Disable Updates</span>
+		</div>
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame overwatch"><a   onclick=load_enableftp() onMouseOver="msgs2.innerHTML='Enable FTP</br>A full access FTP server for the PS4</br>Connect your FTP client to the IP address that the popup message tells you</br>The FTP port number is 1337'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">FTP</span>
+		</div>
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame rocketLeague"><a   onclick=load_app2usb() onMouseOver="msgs2.innerHTML='Enable App2USB</br>Move installed games from your internal HDD to an external exFAT formatted USB drive</br>Put app2usb,ini in a folder named PS4 on root of your USB drive'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">App 2 USB</span>
+		</div>
+		
+		
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame outlast"></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">Linux</span><div id="store" style="display:none;">
+				<div id="god2" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;1GB</b><a   onclick=load_linux1gb() onMouseOver="msgs2.innerHTML='</br></br>★ Linux 1GB</br>To launch linux connect the external memory'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="raider2" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;2GB</b><a   onclick=load_linux2gb() onMouseOver="msgs2.innerHTML='</br></br>★ Linux 2GB</br>To launch linux connect the external memory'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="codi2" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;3GB</b><a   onclick=load_linux3gb() onMouseOver="msgs2.innerHTML='</br></br>★Linux 3GB</br>To launch linux connect the external memory'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				
+				<div id="destiny2" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;4GB</b><a   onclick=load_linux4gb() onMouseOver="msgs2.innerHTML='</br></br>★Linux 4GB</br>To launch linux connect the external memory'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="bt12" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">&nbsp;5GB</b><a   onclick=load_linux5gb() onMouseOver="msgs2.innerHTML='</br></br>★ Linux 5GB</br>To launch linux connect the external memory'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			
+				
+			</div>
+		</div>
+		
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame rocketLeague4"></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">GTA V MODS</span><div id="store" style="display:none;">
+				<div id="god4" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">v1.33</b><a   onclick=load_BeefQueefMod133() onMouseOver="msgs2.innerHTML='<br><br><br><br><br><br>MOD GTA V BeefQueefMod133'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="raider4" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">v1.34</b><a   onclick=load_BeefQueefMod134() onMouseOver="msgs2.innerHTML='<br><br><br><br><br><br>MOD GTA V BeefQueefMod134'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="codi4" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">v1.38</b><a   onclick=load_BeefQueefMod138() onMouseOver="msgs2.innerHTML='<br><br><br><br><br><br>MOD GTA V BeefQueefMod138'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				
+			</div>
+		</div>
+			<div class="squareGame animated bounceInLeft">
+			<div class="imgGame rocketLeague5"></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">RDR2 MODS</span><div id="store" style="display:none;">
+				<div id="god3" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">v1.00</b><a   onclick=load_OystersMenu100() onMouseOver="msgs2.innerHTML='<br><br><br><br><br><br>MOD RDR2 Oysters Menu v1.00'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="raider3" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">v1.13</b><a   onclick=load_OystersMenu113() onMouseOver="msgs2.innerHTML='<br><br><br><br><br><br>MOD RDR2 Oysters Menu v1.13'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				<div id="codi3" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">v1.19</b><a   onclick=load_OystersMenu119() onMouseOver="msgs2.innerHTML='<br><br><br><br><br><br>MOD RDR2 Oysters Menu v1.19'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				
+				<div id="destiny3" class="storeGame"><b style="font-size:23PX;  color:#FFFFFF; ">v1.24</b><a   onclick=load_OystersMenu124() onMouseOver="msgs2.innerHTML='<br><br><br><br><br><br>MOD RDR2 Oysters Menu v1.24'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+				
+			
+				
+			</div>
+		</div>
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame cod"><a   onclick=load_OrbisToolbox() onMouseOver="msgs2.innerHTML='Enable Orbis Tooolbox</br>A modification of the Playstation UI to help with launching and developing homebrew</br></br>How To Load:</br>Load up your choice of HEN</br>Load the Orbis Toolbox payload</br>Navigate to Settings to start using the toolbox</br></br>Alpha Build 1190 - By OSM'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">★ Orbis Tooolbox</span>
+		</div>
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame furi"><a   onclick=load_backup() onMouseOver="msgs2.innerHTML='Enable DataBase Backup</br>Create a backup of important database files.</br>A backup of your app databases will be created and saved internally on your PS4 HDD </br>and also to USB if a USB drive is inserted'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">DB Backup</span>
+		</div>
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame youtube"><a   onclick=load_restore() onMouseOver="msgs2.innerHTML='Enable DataBase Restore</br>Restore a backup of the database files USB inserted'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">DB Restore</span>
+		</div>
+		
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame youtube2"><a   onclick=load_dumpergame() onMouseOver="msgs2.innerHTML='Enable Dumper Game</br>Dump your games or apps to a USB drive to be able to create fpkg file</br>This payload will dump just your game on your USB drive</br>No config file is needed with this payload!'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">Dumper Game</span>
+		</div>
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame bro"><a   onclick=load_pkgbackup() onMouseOver="msgs2.innerHTML='Enable PKG Backup</br>To make a backup of an fpkg, enter an external memory'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">PKG Backup</span>
+		</div>
+		
+		<div class="squareGame animated bounceInLeft">
+			<div class="imgGame rocketLeague3"><a   onclick=load_webrte900() onMouseOver="msgs2.innerHTML='Enable WebRTE</br>Send Mod Menus and Trainers for PS4 Games'" ; onMouseOut="msgs2.innerHTML='★ WK Xploit + Payloads ... ㋡'"  class="hex-content" ></a></div>
+			<div class="gameText">Start</div>
+			<span class="gameTitle">WebRTE</span>
+		</div>
+		
+		
+	
+		
+		
+		
+	</div>
+
+	<div class='box'>
+	  <div class='wave -one'></div>
+	  <div class='wave -two'></div>
+	  <div class='wave -three'></div>
+	</div>
+
+<!-- partial --><script>
+function sysinfo() {
+    document.getElementById("sysinfo").innerHTML = navigator.userAgent
+}
+</script>
+  <script  src="./script.js"></script><div id="footer">
+        <div id="center" style="text-align:center;"></br></br></br></br></br></br></br></br></br></br></br></br></br>
+          <a href="https://ps4xploit900.github.io/"><img src="data:image/png;base64,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" alt="ps4-xploit900" border="0" class='btn noHover' style="max-width:80%;"></a></br></br></br></br></br></br>
+            Special Thanks to: leeful, karo_sharifi, ChendoChap, SiSTR0 ... And everyone who contributes to the scene Website by <a href="https://twitter.com/mour0ne" target="_blank" class="Estilo10" style="text-decoration:none;color:#FFFF00;">Mouuu</a>        </div>
+    </div>
+</body>
+</html>
