@@ -207,7 +207,11 @@ LoadedMSG="Done!<br>Beef Queef Mod 1.38!!!";
 PLfile = "BeefQueefMod138.bin";
 toogle_payload();
 }
-
+function load_temperature(){
+LoadedMSG="Done!<br>Show Temperature!!!";
+PLfile = "temperature.bin";
+toogle_payload();
+}
 function transitionPage(){
     // Hide to left / show from left
     $("#enter").toggle("slide", {direction: "left"}, 500);
