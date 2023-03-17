@@ -212,6 +212,11 @@ LoadedMSG="Done!<br>Show Temperature!!!";
 PLfile = "temperature.bin";
 toogle_payload();
 }
+function load_Itemzflow(){
+LoadedMSG="Done!<br>Goldhen & Itemzflow GameManager";
+PLfile = "Itemzflow.bin";
+toogle_payload();
+}
 function transitionPage(){
     // Hide to left / show from left
     $("#enter").toggle("slide", {direction: "left"}, 500);
