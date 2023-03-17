@@ -213,7 +213,7 @@ PLfile = "temperature.bin";
 toogle_payload();
 }
 function load_Itemzflow(){
-LoadedMSG="Done!<br>Goldhen & Itemzflow GameManager";
+LoadedMSG="Done!<br>GH Itemzflow";
 PLfile = "Itemzflow.bin";
 toogle_payload();
 }
